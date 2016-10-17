@@ -12,6 +12,8 @@
 		749EF94B1DB481DB00EA5244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749EF9491DB481DB00EA5244 /* Main.storyboard */; };
 		749EF94D1DB481DB00EA5244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749EF94C1DB481DB00EA5244 /* Assets.xcassets */; };
 		749EF9501DB481DB00EA5244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749EF94E1DB481DB00EA5244 /* LaunchScreen.storyboard */; };
+		749EF95D1DB488A700EA5244 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749EF95C1DB488A700EA5244 /* background.jpg */; };
+		749EF95F1DB48C9900EA5244 /* DISKOTEQUE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 749EF95E1DB48C9900EA5244 /* DISKOTEQUE.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		749EF94C1DB481DB00EA5244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		749EF94F1DB481DB00EA5244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		749EF9511DB481DB00EA5244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749EF95C1DB488A700EA5244 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		749EF95E1DB48C9900EA5244 /* DISKOTEQUE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = DISKOTEQUE.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		749EF9441DB481DB00EA5244 /* Digital_Clock */ = {
 			isa = PBXGroup;
 			children = (
+				749EF9591DB4840B00EA5244 /* Resource */,
 				749EF9451DB481DB00EA5244 /* AppDelegate.swift */,
 				749EF9471DB481DB00EA5244 /* ViewController.swift */,
 				749EF9491DB481DB00EA5244 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				749EF9511DB481DB00EA5244 /* Info.plist */,
 			);
 			path = Digital_Clock;
+			sourceTree = "<group>";
+		};
+		749EF9591DB4840B00EA5244 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				749EF95E1DB48C9900EA5244 /* DISKOTEQUE.TTF */,
+				749EF95C1DB488A700EA5244 /* background.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				749EF9501DB481DB00EA5244 /* LaunchScreen.storyboard in Resources */,
+				749EF95D1DB488A700EA5244 /* background.jpg in Resources */,
+				749EF95F1DB48C9900EA5244 /* DISKOTEQUE.TTF in Resources */,
 				749EF94D1DB481DB00EA5244 /* Assets.xcassets in Resources */,
 				749EF94B1DB481DB00EA5244 /* Main.storyboard in Resources */,
 			);
